@@ -1,0 +1,63 @@
+/* Profile.module.css */
+
+.profile {
+  /* Styles for the main profile container */
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  /* Add more styles as needed */
+}
+
+.description {
+  /* Styles for the description section */
+  text-align: center;
+  /* Add more styles as needed */
+}
+
+.avatar {
+  /* Styles for the user avatar */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  /* Add more styles as needed */
+}
+
+.name {
+  /* Styles for the username */
+  font-size: 24px;
+  font-weight: bold;
+  /* Add more styles as needed */
+}
+
+.userInfo {
+  /* Styles for user information (tag and location) */
+  font-size: 16px;
+  /* Add more styles as needed */
+}
+
+.stats {
+  /* Styles for the statistics container */
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /* Add more styles as needed */
+}
+
+.item {
+  /* Styles for each statistic item */
+  text-align: center;
+  /* Add more styles as needed */
+}
+
+.label {
+  /* Styles for the label in each statistic item */
+  font-weight: bold;
+  /* Add more styles as needed */
+}
+
+.quantity {
+  /* Styles for the quantity in each statistic item */
+  font-size: 18px;
+  /* Add more styles as needed */
+}
