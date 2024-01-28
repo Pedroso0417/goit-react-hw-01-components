@@ -5,6 +5,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  gap: 30px;
+  border-radius: 0px 0px 4px 4px;
+  background: white;
+  -webkit-box-shadow: -1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 10px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 10px -1px rgba(0, 0, 0, 0.75);
 }
 
 .avatar {
@@ -22,7 +28,7 @@
   padding: 5px;
   color: white;
   font-weight: bold;
-  background-color: gray;
+  border-radius: 4px;
 }
 
 .online {

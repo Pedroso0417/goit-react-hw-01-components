@@ -9,15 +9,17 @@ export const Statistics = ({ title, stats }) => {
   };
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
+      {title && <h2 className={css.title}>{title}</h2>}
 
-      <ul className={css.statlist}>
-        {stats.map(stats => (
-          <li className={css.item}>
+      <ul className={css.statList}>
+        {stats.map(stat => (
+          <li
+            className={css.item}
             style={{ backgroundColor: generateRandomColor() }}
-            key:{stats.id}
-            <span className={css.label}>{stats.label}</span>
-            <span className={css.percentage}>{stats.percentage}4%</span>
+            key={stat.id}
+          >
+            <span className={css.label}>{stat.label}</span>
+            <span className={css.percentage}>{stat.percentage}%</span>
           </li>
         ))}
       </ul>
